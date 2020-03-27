@@ -1,0 +1,2 @@
+rootProject.name='Poryecto2'
+include ':app'
