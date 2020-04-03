@@ -32,20 +32,17 @@
 
     <Button
         android:id="@+id/login"
-        android:layout_width="127dp"
-        android:layout_height="124dp"
+        android:layout_width="76dp"
+        android:layout_height="74dp"
         android:layout_gravity="start"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="48dp"
-        android:layout_marginBottom="64dp"
         android:background="@android:drawable/ic_menu_send"
         android:enabled="false"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_registro"
+        app:layout_constraintHorizontal_bias="0.523"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password"
-        app:layout_constraintVertical_bias="0.208" />
+        app:layout_constraintVertical_bias="0.233" />
 
     <EditText
         android:id="@+id/password"
@@ -82,4 +79,16 @@
         app:layout_constraintStart_toStartOf="@+id/password"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.3" />
+
+    <Button
+        android:id="@+id/btn_registro"
+        android:layout_width="112dp"
+        android:layout_height="58dp"
+        android:text="Sign In"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.769"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password"
+        app:layout_constraintVertical_bias="0.234" />
 </androidx.constraintlayout.widget.ConstraintLayout>
